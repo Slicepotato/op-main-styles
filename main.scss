@@ -1,0 +1,172 @@
+// Name: Niverdeen - Obsidian Portal
+// URI: https://niverdeen.obsidianportal.com
+// Author: Michael Johnson
+// Author URI: 
+// Description: 2019 update for environment styles for normalizing on the OP platform
+// Version: 2
+// License: GNU General Public License v2 or later
+
+// Colors
+// ---------------------------------------------------------------------------------------
+$blk: #1a1a1a;
+$wht: #ffffff;
+$red: #b22a24;
+$gold: #ffff99;
+$gry-lt: #eeeeee;
+$gry-md: #666666;
+$gry-dk: #2b2b2b;
+
+// Core Overwrites
+// ---------------------------------------------------------------------------------------
+
+h6, h5, h4, h3, h2, h1, .wiki-page-name {
+    font-family: 'IM Fell English SC', serif;
+}
+
+h2, h6 {
+	border-bottom: 2px solid $red;
+    margin-bottom: .5em;
+    font-size: 1.75em;
+    line-height: 1.4;
+}
+
+h3 {
+    border-bottom: 1px solid $red;
+    margin-bottom: .5em;
+    font-size: 1.5em;
+}
+
+.campaign-title {
+	font-family: 'Courgette', sans-serif;
+}
+
+.campaign-public-layout .page-background {
+    background: $blk;
+    
+    .page-background {
+        background-image: none;
+    }
+}
+
+.cover-container {
+	background-position: top -105px center;
+}
+
+.sidebar-quick-stats {
+	border:0;
+}
+#sidebar {
+    .lower-divider {
+        border:0;
+    }
+}
+
+.wiki-page-name {
+	font-size:2em;
+}
+
+.main-content {
+    color: $blk;
+
+    a {
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+}
+
+.main-content, .sidebar, .modal-container {
+    a {
+        font-weight: 700;
+    }
+}
+
+.character-name {
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-size: .83em;
+    color: $gry-md;
+}
+
+.code-block {
+    background-color: $gry-dk;
+    padding: 1em;
+
+    code {
+        color: $gry-lt;
+    }
+}
+
+
+// Table Styles
+// ---------------------------------------------------------------------------------------
+.table {
+    border-collapse:collapse;
+
+    tr {
+        &:nth-of-type(even) {
+            background-color: $gry-lt;
+        }
+    }
+
+    .heading {
+        background-color: $red;
+        color: $wht;
+        text-transform:uppercase;
+        text-align: left;
+
+        .create-wiki-page-link {
+            color: $gold;
+        }
+    }
+
+    .title {
+        font-weight: 700;
+    }
+
+    &.meta {
+        td {
+            font-size: 1.25em;
+        }
+        tr {
+            background-color: $wht;
+        }
+    }
+
+    &.skills {
+        width: 100%;
+        max-width: 560px;
+
+        tr {
+            td {
+                &:first-of-type {
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    &--blocks {
+        width:100%;
+        padding:5px;
+        margin:10px 0;
+        border-top:1px solid ;
+        border-bottom:1px solid $red;
+    }
+}
+
+.stats {
+    th {
+        font-weight:700;
+        color:$red;
+        text-transform:uppercase;
+        font-size: 1.25em;
+    }
+}
+
+.spell-lvl {
+    width: 100%;
+    max-width: 560px;
+}

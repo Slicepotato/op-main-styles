@@ -1,0 +1,135 @@
+h6, h5, h4, h3, h2, h1, .wiki-page-name {
+  font-family: 'IM Fell English SC', serif;
+}
+
+h2, h6 {
+  border-bottom: 2px solid #b22a24;
+  margin-bottom: .5em;
+  font-size: 1.75em;
+  line-height: 1.4;
+}
+
+h3 {
+  border-bottom: 1px solid #b22a24;
+  margin-bottom: .5em;
+  font-size: 1.5em;
+}
+
+.campaign-title {
+  font-family: 'Courgette', sans-serif;
+}
+
+.campaign-public-layout .page-background {
+  background: #1a1a1a;
+}
+
+.campaign-public-layout .page-background .page-background {
+  background-image: none;
+}
+
+.cover-container {
+  background-position: top -105px center;
+}
+
+.sidebar-quick-stats {
+  border: 0;
+}
+
+#sidebar .lower-divider {
+  border: 0;
+}
+
+.wiki-page-name {
+  font-size: 2em;
+}
+
+.main-content {
+  color: #1a1a1a;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.main-content a, .sidebar a, .modal-container a {
+  font-weight: 700;
+}
+
+.character-name {
+  font-size: 2.5em;
+}
+
+.tagline {
+  font-size: .83em;
+  color: #666666;
+}
+
+.code-block {
+  background-color: #2b2b2b;
+  padding: 1em;
+}
+
+.code-block code {
+  color: #eeeeee;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table tr:nth-of-type(even) {
+  background-color: #eeeeee;
+}
+
+.table .heading {
+  background-color: #b22a24;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table .heading .create-wiki-page-link {
+  color: #ffff99;
+}
+
+.table .title {
+  font-weight: 700;
+}
+
+.table.meta td {
+  font-size: 1.25em;
+}
+
+.table.meta tr {
+  background-color: #ffffff;
+}
+
+.table.skills {
+  width: 100%;
+  max-width: 560px;
+}
+
+.table.skills tr td:first-of-type {
+  width: 90%;
+}
+
+.table--blocks {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid #b22a24;
+}
+
+.stats th {
+  font-weight: 700;
+  color: #b22a24;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.spell-lvl {
+  width: 100%;
+  max-width: 560px;
+}
+/*# sourceMappingURL=main.css.map */
