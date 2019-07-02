@@ -1,3 +1,6 @@
+/*********************
+BREAKPOINTS
+*********************/
 h6, h5, h4, h3, h2, h1, .wiki-page-name {
   font-family: 'IM Fell English SC', serif;
 }
@@ -169,6 +172,10 @@ body.campaign-public-layout .post-section.post-gm-only a {
   text-decoration: underline;
 }
 
+.table .heading.type {
+  font-size: .68em;
+}
+
 .table .title {
   font-weight: 700;
 }
@@ -203,7 +210,6 @@ body.campaign-public-layout .post-section.post-gm-only a {
   color: #ffffff;
   background-color: #b22a24;
   text-transform: uppercase;
-  font-size: 1.25em;
 }
 
 .stats th.saves {
@@ -211,6 +217,12 @@ body.campaign-public-layout .post-section.post-gm-only a {
   color: #666666;
   font-size: .83em;
   border-top: 1px solid #666666;
+}
+
+@media (min-width: 500px) {
+  .stats th {
+    font-size: 1.25em;
+  }
 }
 
 .spell-lvl {
